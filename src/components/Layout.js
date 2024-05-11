@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '/home/niraj/development/react/my-app/src/components/Navbar.js';
+import Navbar from './Navbar.js';
 
 const Layout = ({ children}) => {
   return (

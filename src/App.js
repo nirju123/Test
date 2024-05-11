@@ -8,7 +8,7 @@ import Profile from './components/Profile';
 import Faq from './components/Faq';
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import { DataProvider } from '/home/niraj/development/react/my-app/src/components/DataContext.js';
+import { DataProvider } from './components/DataContext.js';
 
 
 function App() {

@@ -1,5 +1,5 @@
 import React,{useState,useContext,useEffect} from 'react'
-import DataContext from '/home/niraj/development/react/my-app/src/components/DataContext.js';
+import DataContext from './DataContext.js';
 import { Link } from 'react-router-dom';
 import { isTokenExpired } from './Functions';
 
