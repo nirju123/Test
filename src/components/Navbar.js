@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'  //impt + Enter
 import { Link, useNavigate } from 'react-router-dom';
 import { isTokenExpired } from './Functions';
 

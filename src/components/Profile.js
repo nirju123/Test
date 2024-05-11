@@ -1,7 +1,6 @@
-import React, { useState, useEffect, useContext } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import React, { useState, useEffect} from "react";
+import { useNavigate } from "react-router-dom";
 import { Bar, Line } from "react-chartjs-2";
-import { Chart as ChartJS } from "chart.js/auto";
 
 
 export default function Profile() {

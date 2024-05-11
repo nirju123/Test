@@ -1,13 +1,12 @@
 import './App.css';
-import Navbar from './components/Navbar';
 import Card from './components/Card';
 import Card1 from './components/Card1';
 import Layout from './components/Layout';
 import Form from './components/Form';
 import Profile from './components/Profile';
 import Faq from './components/Faq';
-import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { DataProvider } from './components/DataContext.js';
 
 

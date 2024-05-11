@@ -1,5 +1,5 @@
-import React, { useState, useEffect,useContext } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import React, { useState} from 'react';
+import { useNavigate } from 'react-router-dom';
 
 
 export default function Card1() {
@@ -39,6 +39,7 @@ export default function Card1() {
         console.error('Error:', error);
         alert('Error: ' + error.message);
       });
+      console.log(response);
   };
   
   
