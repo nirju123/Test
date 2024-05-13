@@ -5,6 +5,7 @@ import Layout from './components/Layout';
 import Profile from './components/Profile';
 import Faq from './components/Faq';
 import React from 'react';
+// eslint-disable-next-line
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { DataProvider } from './components/DataContext.js';
 
