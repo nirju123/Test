@@ -2,7 +2,6 @@ import './App.css';
 import Card from './components/Card';
 import Card1 from './components/Card1';
 import Layout from './components/Layout';
-import Form from './components/Form';
 import Profile from './components/Profile';
 import Faq from './components/Faq';
 import React from 'react';
@@ -17,7 +16,7 @@ function App() {
         <Routes>
           <Route
             path="/"
-            element={<Layout ><div className='container'><Form title="Enter Text Here"  /></div></Layout>}
+            element={<Layout ><div className='container'><Faq/></div></Layout>}
           />
           <Route path="/about" element={<Layout ><Faq/></Layout>} />
           <Route path="/login" element={<Layout ><Card/></Layout>} />
