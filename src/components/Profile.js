@@ -1,7 +1,9 @@
 import React, { useState, useEffect} from "react";
 import { useNavigate } from "react-router-dom";
 import { Bar, Line } from "react-chartjs-2";
+import { Chart, registerables } from 'chart.js';
 
+Chart.register(...registerables);
 
 export default function Profile() {
   const [hist, setFun] = useState({});
