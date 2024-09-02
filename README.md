@@ -13,6 +13,7 @@ __This text is bold__
 1. First item
 2. Second item
    1. Subitem 2.1
+---
 ![image](https://github.com/ayush-agarwal-0502/Starbucks-Customer-Segmentation/assets/86561124/db204c3c-5cdf-421c-a00c-ae3a7edb1287)
 [GitHub](https://github.com)
 ![Alt text](https://url/to/image.jpg)
@@ -22,5 +23,5 @@ def hello_world():
     print("Hello, world!")
 ```
 > This is a blockquote.
----
+
 
