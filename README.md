@@ -1,6 +1,9 @@
 **This text is bold**
+---
 __This text is bold__
+---
 *This text is italicized*
+---
 # Heading 1
 ## Heading 2
 ### Heading 3
